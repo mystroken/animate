@@ -1,0 +1,24 @@
+{
+  "name": "@mystroken/animate",
+  "version": "1.0.0",
+  "description": "Animate is a JavaScript animation library focusing on performance.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystroken/animate.git"
+  },
+  "keywords": [
+    "animation",
+    "js",
+    "smooth"
+  ],
+  "author": "Mystro Ken <mystroken@gmail.com> (https://mystroken.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mystroken/animate/issues"
+  },
+  "homepage": "https://github.com/mystroken/animate#readme"
+}
