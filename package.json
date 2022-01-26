@@ -9,8 +9,8 @@
     "@types"
   ],
   "scripts": {
-    "dev": "del-cli @dist/ && node ./build --watch",
-    "build": "del-cli @dist/ && node ./build",
+    "dev": "del-cli lib/ && node ./build --watch",
+    "build": "del-cli lib/ && cross-env NODE_ENV=production node ./build",
     "dts": "del-cli @types/ && tsc",
     "pre-release": "pnpm build && pnpm dts"
   },
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/mystroken/animate#readme",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "del-cli": "^4.0.1",
     "esbuild": "^0.14.13",
     "eslint": "^8.7.0",
