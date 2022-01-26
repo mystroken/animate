@@ -1,10 +1,11 @@
 {
   "name": "@mystroken/animate",
   "version": "1.0.0",
+  "type": "module",
   "description": "Animate is a JavaScript animation library focusing on performance.",
   "main": "src/index.ts",
   "files": [
-    "dist",
+    "lib",
     "src",
     "@types"
   ],
