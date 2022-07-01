@@ -9,6 +9,11 @@
     "src",
     "@types"
   ],
+  "publishConfig": {
+    "access": "public",
+    "main": "lib/index.js",
+    "types": "@types/index.d.ts"
+  },
   "scripts": {
     "dev": "del-cli lib/ && node ./build --watch",
     "build": "del-cli lib/ && cross-env NODE_ENV=production node ./build",

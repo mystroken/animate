@@ -10,6 +10,6 @@ build({
   bundle: false,
   minify: whenIsProduction,
   watch: !whenIsProduction,
-  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
+  // target: ['es6'],
   external: [],
 })
